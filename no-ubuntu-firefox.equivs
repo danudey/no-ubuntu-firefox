@@ -1,0 +1,20 @@
+Section: misc
+Priority: optional
+Homepage: https://github.com/danudey/no-ubuntu-firefox
+Standards-Version: 3.9.2
+
+Package: no-ubuntu-firefox
+Version: 1
+Maintainer: Daniel Fox <danudey@me.com>
+# Pre-Depends: <comma-separated list of packages>
+# Depends: firefox (> 100)
+Architecture: all
+Copyright: LICENSE
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
+Files: no-ubuntu-firefox.prefs /etc/apt/preferences.d/no-ubuntu-firefox
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: A dummy package which conflicts with snap versions of Firefox
+ Firefox via snap is broken and garbage. Fuck it. Get rid of it.

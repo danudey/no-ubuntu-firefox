@@ -1,0 +1,4 @@
+Package: firefox
+Pin: release l=Ubuntu
+Pin-Priority: -1
+
