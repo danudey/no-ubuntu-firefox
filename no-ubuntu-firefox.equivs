@@ -15,7 +15,7 @@ Copyright: LICENSE
 # Readme: <README.Debian file; defaults to a generic one>
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
-Files: preferences.d/   no-ubuntu-firefox /etc/apt/preferences.d
+Files: preferences.d/no-ubuntu-firefox /etc/apt/preferences.d
 #  <more pairs, if there's more than one file to include. Notice the starting space>
 Description: A dummy package which conflicts with snap versions of Firefox
  Firefox via snap is broken and garbage. Fuck it. Get rid of it.
